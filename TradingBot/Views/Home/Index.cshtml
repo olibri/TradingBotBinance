@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>ARB Price</h1>
+<div>
+    <label id="symbolDisplay">Waiting for price...</label>
+    <label class ="price" id="priceDisplay"></label>
+</div>
+
+<div class="price-input">
+    <div>
+        <input type="number" id="priceInput" placeholder="write the price" step="0.0001">
+        <small>Set the price for long/short <strong>stop order</strong> </small>
+
+    </div>
+    
+    <div>
+        <input type="number" id="quantityInput" placeholder="write the quantity" step="10">
+        <small>Coins quantity</small>
+    </div>
+</div>
+
+
